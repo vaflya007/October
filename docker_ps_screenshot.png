@@ -1,0 +1,3 @@
+CONTAINER ID   IMAGE                COMMAND                  CREATED         STATUS         PORTS                                               NAMES
+e17c5bc6febf   gitea/gitea:latest   "/usr/bin/entrypoint…"   2 minutes ago   Up 2 minutes   22/tcp, 0.0.0.0:3000->3000/tcp, :::3000->3000/tcp   gitea-container
+031972c4edfa   nginx                "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp                   nginx-container
