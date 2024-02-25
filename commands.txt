@@ -1,0 +1,4 @@
+1. docker run -d --name nginx-container -p 80:80 nginx
+2. docker run -d --name gitea-container -p 3000:3000 gitea/gitea:latest
+3. docker ps > docker_ps_screenshot.png
+4. docker exec -it nginx-container nginx -v > nginx_version_screenshot.png

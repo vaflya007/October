@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+  gitea:
+    image: gitea/gitea:latest
+    ports:
+      - "3000:3000"
